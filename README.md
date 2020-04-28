@@ -28,17 +28,17 @@ pip install wordcloud
 ## Getting Started
 This project is divided into three steps:
 
-1.News Scraping
+### 1. News Scraping
 
-The objective of this step is to scrap webpages and create a dataframe with title and description for each news url. 
+The objective of this step is to scrap webpages and create a dataframe with title and description for each news url. This is done using [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) and [Requests](https://pypi.org/project/requests/) libraries for Python.
 
-2.Cleaning Data
+### 2. Cleaning Data
 
-This step involves making text lowercase, removing punctuatin,removing stopwords,removing numerical values, tokenization, lemmatization
+This step involves making text lowercase, removing punctuatin,removing stopwords,removing numerical values, tokenization, lemmatization. Python libraries [nltk](https://www.nltk.org/) and [re](https://docs.python.org/3/library/re.html) have been used here to clean the text.
 
-3.Document-Term Matrix
+### 3. Document-Term Matrix
 
-A DTM is a matrix that describes the frequency of terms that occur in a collection of documents where every row will represent a different document and every column will represent a different word.
+A DTM is a matrix that describes the frequency of terms that occur in a collection of documents where every row will represent a different document and every column will represent a different word. This is achieved with the help of scikit-learn'[CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html).
 
 
 
