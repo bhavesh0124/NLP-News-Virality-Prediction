@@ -38,7 +38,7 @@ This step involves making text lowercase, removing punctuatin,removing stopwords
 
 ### 3. Document-Term Matrix
 
-A DTM is a matrix that describes the frequency of terms that occur in a collection of documents where every row will represent a different document and every column will represent a different word. This is achieved with the help of scikit-learn'[CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html).
+A DTM is a matrix that describes the frequency of terms that occur in a collection of documents where every row will represent a different document and every column will represent a different word. This is achieved with the help of scikit-learn's [CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html).
 
 
 
