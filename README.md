@@ -1,7 +1,7 @@
 # Web-crawling-and-news-virality-prediction
 Crawling online news sites and anticipating the likelihood of its virality. This is an example of web scraping and crawling with BeautifulSoup4 python package. I scraped news titles and their descriptions from online news sites and predicted whether a given news article is likely to be viral or not.
 
-Format: ![Alt Text](https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia-exp1.licdn.com%2Fdms%2Fimage%2FC511BAQFI91Hv9niLOA%2Fcompany-background_10000%2F0%3Fe%3D2159024400%26v%3Dbeta%26t%3DNs90SQCpixGoIU4KDSzc1gNhhnG24v_hntJ_mQSz_V4&imgrefurl=https%3A%2F%2Fin.linkedin.com%2Fcompany%2Fviral-news&tbnid=uOo15J_cgkyRnM&vet=12ahUKEwiwmvTFzI3pAhX5x3MBHcteC1gQMygMegUIARCdAg..i&docid=CbTjMBlAibR7cM&w=700&h=400&q=viral%20news&client=ubuntu&ved=2ahUKEwiwmvTFzI3pAhX5x3MBHcteC1gQMygMegUIARCdAg)
+![](Pictures/viral.png)
 
 
 ## Requirements
