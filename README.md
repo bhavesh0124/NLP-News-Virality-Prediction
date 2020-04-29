@@ -1,7 +1,7 @@
 # Web-crawling-and-news-virality-prediction
 Crawling online news sites and anticipating the likelihood of its virality. This is an example of web scraping and crawling with BeautifulSoup4 python package. I scraped news titles and their descriptions from online news sites and predicted whether a given news article is likely to be viral or not.
 
-![](Pictures/viral.png)
+![](/home/supriya/Pictures/viral.png)
 
 
 ## Requirements
@@ -48,7 +48,7 @@ A DTM is a matrix that describes the frequency of terms that occur in a collecti
 
 ### 5. Prediction
 
-As test set I have used both trending and normal urls from India Today's website. A prediction of 0 
+As test set I have used both trending and normal urls from India Today's website.
 
 
 
