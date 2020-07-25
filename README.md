@@ -34,6 +34,8 @@ This project is divided into five steps:
 ### 1. News Scraping
 
 The objective of this step is to scrap webpages and create a dataframe with title and description for each news url. I have collected both viral and non-viral news articles from the site as training set. This is done using [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) and [Requests](https://pypi.org/project/requests/) libraries for Python.
+  ![alt text](images/DataSet.png)
+
 
 ### 2. Cleaning Data
 
