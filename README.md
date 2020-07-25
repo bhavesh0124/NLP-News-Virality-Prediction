@@ -47,7 +47,7 @@ A DTM is a matrix that describes the frequency of terms that occur in a collecti
 
 [Word Cloud](https://pypi.org/project/wordcloud/) is used to visualize the most common words used in the news descriptions.
 
-   ![](images/wordcloud.png)
+   ![alt text](images/wordcloud.png)
         
 I have also plotted the frequencies of uni-grams and bi-grams with the help of [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) libraries for python.
 
