@@ -1,5 +1,8 @@
 # Web-crawling-and-news-virality-prediction
-Project for crawling online news sites and anticipating the likelihood of its virality. This is an example of web scraping and crawling with BeautifulSoup4 python package. I scraped news titles and their descriptions from online news sites and predicted whether a given news article is likely to be viral or not.
+The notebook crawals indiatoday for both training and testing data. The content is extracted using beautifulsoup in python. The gathered data is saved as a dataframe using pandas. After applying different NLP cleaning techniques like removal of stop words etc. document matrix is created. Once the data is converted in suitable form, different classifiers are trained and the best based on accuracy score is used. In my case, Logistic Classifier showed the best performance. 
+
+
+
 
 ## Requirements
 -[BeautifulSoup](https://pypi.org/project/beautifulsoup4/) 
