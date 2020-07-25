@@ -41,7 +41,8 @@ The objective of this step is to scrap webpages and create a dataframe with titl
 
 This step involves making text lowercase, removing punctuations,removing stopwords,removing numerical values, tokenization and lemmatization. Python libraries [nltk](https://www.nltk.org/) and [re](https://docs.python.org/3/library/re.html) have been used here to clean the text.
 
-
+  ![alt text](images/Dataset.png)
+  
 ### 3. Document-Term Matrix
 
 A DTM is a matrix that describes the frequency of terms that occur in a collection of documents where every row will represent a different document and every column will represent a different word. I have created document-term matrix for train and test data. This is achieved with the help of scikit-learn's [CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html).
