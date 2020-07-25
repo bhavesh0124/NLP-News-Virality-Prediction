@@ -41,6 +41,7 @@ The objective of this step is to scrap webpages and create a dataframe with titl
 
 This step involves making text lowercase, removing punctuations,removing stopwords,removing numerical values, tokenization and lemmatization. Python libraries [nltk](https://www.nltk.org/) and [re](https://docs.python.org/3/library/re.html) have been used here to clean the text.
 
+
 ### 3. Document-Term Matrix
 
 A DTM is a matrix that describes the frequency of terms that occur in a collection of documents where every row will represent a different document and every column will represent a different word. I have created document-term matrix for train and test data. This is achieved with the help of scikit-learn's [CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html).
@@ -49,19 +50,19 @@ A DTM is a matrix that describes the frequency of terms that occur in a collecti
 
 [Word Cloud](https://pypi.org/project/wordcloud/) is used to visualize the most common words used in the news descriptions.
 
-   ![alt text](images/wordcloud.png)
+   ![alt text](images/Image.png)
         
 I have also plotted the frequencies of uni-grams and bi-grams with the help of [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) libraries for python.
 
-![](images/unigram.png)
+![](images/Bia1.png)
 
-![](images/bigram.png)
+![](images/Bia2.png)
 
 ### 5. Prediction
 
 As test set I have used both trending and normal urls from India Today's website. I have added a classifier comparison to check which model gives the best possible accuracy on our training data.
 
-![](images/comparison.png)
+![](images/Models.png)
 
 I have used [confusion matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html#sklearn.metrics.confusion_matrix) and [accuracy_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html) from [sklearn.metrics](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics) to asess the predictions.
 
